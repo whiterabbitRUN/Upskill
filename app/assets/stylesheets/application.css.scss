@@ -21,3 +21,23 @@ h1, h2, h3 {
   font-family: 'Open Sans' sans-serif
 }
 
+.navbar, .home-callout {
+  background: #E8CBC0; /* fallback for old browsers */
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#E8CBC0), to(#636FA4));
+  background: -webkit-linear-gradient(to left, #E8CBC0, #636FA4);
+  background: -moz-linear-gradient(to left, #E8CBC0, #636FA4);
+  background: -o-linear-gradient(to left, #E8CBC0, #636FA4);
+  background: linear-gradient(to left, #E8CBC0, #636FA4); /* Chrome 10-25, Safari 5.1-6 */ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          
+}
+
+.navbar {
+  border:none;
+}
+
+.home-callout{
+    color:white;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
